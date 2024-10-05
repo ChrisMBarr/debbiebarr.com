@@ -127,11 +127,10 @@
 #sidebar {
   background: $site-sidebar-bg;
   transform: translateX(-100%);
-
-  @include transition($site-duration transform $site-ease-out-expo);
-
   z-index: $site-sidebar-z-index;
   overflow: auto; // allow scrolling for short screens
+
+  @include transition($site-duration transform $site-ease-out-expo);
 
   .sidebar-open & {
     transform: translateX(0);

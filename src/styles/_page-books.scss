@@ -4,10 +4,9 @@
   img {
     // The actual book cover
     z-index: 1;
+    box-shadow: $box-shadow;
 
     @include transition(all $site-duration-fast $site-ease-out-expo);
-
-    box-shadow: $box-shadow;
   }
 
   a {
