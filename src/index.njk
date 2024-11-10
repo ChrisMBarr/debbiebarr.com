@@ -35,6 +35,25 @@ quoteColWidth: 12
   </div>
 </div>
 <div class="container">
+  <h2 class="fs-1">News</h2>
+
+  {% set newsArr = [] %}
+  {% for k, item in news %}
+    {% set newsArr = (newsArr.push(item), newsArr) %}
+  {% endfor %}
+
+  {% for item in newsArr.slice(0, 3) | sort(false, false, "publishDate") | reverse %}
+    <h3 class="mb-0">
+      <a href="{{ '/news/' | url }}{{ item.publishDate + '-' + item.title | slugify | url }}">{{item.title}}</a>
+    </h3>
+    <h4 class="fs-3">
+      <small class="text-body-secondary">{{item.publishDate | date('MMM D, YYYY')}} | </small>
+      {{item.subtitle}}
+    </h4>
+  {% endfor %}
+
+  <a href="/news">See More&hellip;</a>
+
   {% include "quote.njk" %}
   <small class="text-body-tertiary">Photo Artistry by Melinda Lamm</small>
 </div>

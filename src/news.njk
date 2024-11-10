@@ -1,0 +1,36 @@
+---
+layout: layout.njk
+title: News
+---
+
+<div class="container">
+
+  {% set newsArr = [] %}
+  {% for k, item in news %}
+    {% set newsArr = (newsArr.push(item), newsArr) %}
+  {% endfor %}
+
+  {% for item in newsArr | sort(false, false, "publishDate") | reverse %}
+    {% if not loop.first %}
+      <hr>
+    {% endif %}
+    <h2 class="mb-0">
+      <a href="{{ '/news/' | url }}{{ item.publishDate + '-' + item.title | slugify | url }}">{{item.title}}</a>
+    </h2>
+    <div class="ms-2 ps-2 border-start">
+
+      <h3 class="fs-4">
+        <small class="text-body-secondary">{{item.publishDate | date('MMM D, YYYY')}} | </small>
+        {{item.subtitle}}
+      </h3>
+      <p>{{item.description}}</p>
+      <a class="btn btn-primary btn-lg" href="{{item.link}}" target="_blank">
+        {% if item.usePlayIcon %}
+          <svg class="icon" role="img"><use xlink:href="#icon-play-circle-fill"/></svg>
+        {% endif %}
+        {{item.linkText}}
+      </a>
+    </div>
+  {% endfor %}
+
+</div>

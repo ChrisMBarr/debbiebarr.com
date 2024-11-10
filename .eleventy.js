@@ -3,6 +3,7 @@ const path = require('node:path');
 const htmlMin = require('html-minifier');
 const esbuild = require('esbuild');
 const nunjucks = require('nunjucks');
+const dateFilter = require('nunjucks-date-filter');
 
 module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
@@ -12,6 +13,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy('src/img');
 
+  eleventyConfig.addFilter('date', dateFilter);
   eleventyConfig.addFilter('absoluteUrl', (url) => new URL(url, baseUrl).href);
   eleventyConfig.addFilter('cacheBreakerQueryString', (url) => `${url}?publish=${Date.now()}`);
   eleventyConfig.addNunjucksFilter('interpolate', (str) => nunjucks.renderString(str, eleventyConfig));

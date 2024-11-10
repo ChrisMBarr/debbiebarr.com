@@ -4,7 +4,7 @@
       <svg class="icon" role="img"><use xlink:href="#{{nav.icon}}"/></svg>
     </a>
   {% elif nav.name == 'Home' %}
-    <a href="{{nav.url | url}}" class="{% if page.url == nav.url %}current{% endif %}">
+    <a href="{{nav.url | url}}" class="{% if page.url == nav.url or '/news' in page.url %}current{% endif %}">
       {{nav.name}}
     </a>
   {% else %}

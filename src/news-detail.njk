@@ -1,0 +1,36 @@
+---
+layout: layout.njk
+eleventyComputed:
+  title: "{{ news.title }}"
+pagination:
+  data: news
+  resolve: values
+  alias: item
+  size: 1
+permalink: "news/{{ item.publishDate + '-' + item.title | slugify }}/"
+---
+
+<div class="container">
+  <h2 class="mb-0">
+    {{item.title}}
+  </h2>
+  <h3>
+    <small class="text-body-secondary">{{item.publishDate | date('MMM D, YYYY')}} | </small>
+    {{item.subtitle}}
+  </h3>
+  <p>{{item.description}}</p>
+  <a class="btn btn-primary btn-lg" href="{{item.link}}" target="_blank">
+    {% if item.usePlayIcon %}
+      <svg class="icon" role="img"><use xlink:href="#icon-play-circle-fill"/></svg>
+    {% endif %}
+    {{item.linkText}}
+  </a>
+
+  <hr/>
+
+  <a class="btn btn-secondary" href="/news">
+    <svg class="icon" role="img"><use xlink:href="#icon-arrow-left"/></svg>
+    Back to All News
+  </a>
+
+</div>
