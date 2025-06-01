@@ -30,7 +30,7 @@
       ]
     },
     {
-      "name": "Comments And Reviews",
+      "name": "Reviews",
       "content": [
         {
           "type": "quote",
@@ -48,6 +48,10 @@
           "source": "Deborah P."
         }
       ]
+    },
+    {
+      "name": "Media",
+      "content": []
     }
   ],
   "linkCategories": [

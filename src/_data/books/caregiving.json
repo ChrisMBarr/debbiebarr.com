@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "Comments And Reviews",
+      "name": "Reviews",
       "content": [
         {
           "type": "quote",
@@ -46,6 +46,10 @@
           "citation": "family caregiver"
         }
       ]
+    },
+    {
+      "name": "Media",
+      "content": []
     }
   ],
   "linkCategories": [

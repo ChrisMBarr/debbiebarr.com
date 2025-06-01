@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "Comments And Reviews",
+      "name": "Reviews",
       "content": [
         {
           "type": "quote",
@@ -86,6 +86,10 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Media",
+      "content": []
     }
   ],
   "linkCategories": [
