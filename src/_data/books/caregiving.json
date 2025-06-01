@@ -35,21 +35,86 @@
         },
         {
           "type": "quote",
-          "text": "I believe one of the hardest parts of caregiving is looking after oneself. Caregiving brings honest engagement with the challenges and blessings of providing care. The easy reading style, use of true stories and concise length make it accessible to all. However, I most appreciated its pithy practical proposals for how to keep caring by practicing self-care. I will be recommending and stocking my bookshelf with copies of this book to give to people.",
+          "text": "Caregivers is a quick must-read for busy, overwhelmed, and caregivers of any type who need a break. Debbie weaves personal stories with succinct crucial information about dealing with stress, grief, compassion fatigue, etc. The essence of the topics that I learned in my Counseling Masters are in this tiny book. Caregivers includes a wealth of information, practical tips, and step-by-step guides like how to create a team around you or the need for mini-breaks, as well as many self-reflecting questions to ponder. Debbie once again has written a book that is guaranteed to make your load lighter.",
+          "source": "Wayne",
+          "citation": "Amazon Reviewer"
+        },
+        {
+          "type": "quote",
+          "text": "Short, practical and compassionate. I can't recommend &ldquo;Caregiving&rdquo; enough!",
           "source": "Ben",
-          "citation": "chaplain"
+          "citation": "Aging Care Chaplain"
+        },
+        {
+          "type": "quote",
+          "text": "Have you found yourself in a world of caregiving you didn't ask to be in nor desire? Are you torn between loving the person who needs you and not resent the losses you experience caring for them? Debbie writes an insightful, inexpensive book that leans on real-life experiences as well as objective facts about caregiving. I've cared for several family members and found her advice on point. I especially appreciated her perspective on having a caregiving &ldquo;team&rdquo; as well as when Caregiving &ldquo;must change.&rdquo; I plan to give it as a gift to several I know who are in the midst of these challenging times.",
+          "source": "Amazon Reviewer"
         },
         {
           "type": "quote",
           "text": "If you need a brand new outlook and refreshing ideas that will encourage and enlighten you when you have the job of giving care to someone who depends entirely upon you, this book will meet your expectations and then some. The author has brought to light so many good facts about the need for caregivers to take care of themselves and those facts should not and cannot be ignored by caregivers. And it is not all facts and figures. There are also real life stories from caregivers that have found ways to take care of themselves while caregiving; and through it all, showing extraordinary love to the person in their care. <br><br> I have been a caregiver for two members of my immediate family at separate times during my adult life. Little did I know this was going to take up many years of my life. This book is a &ldquo;must read&rdquo; for caregivers and I will re-read it many times as I continue with my caregiving journey. Thank you Debbie Barr for encouraging me and others like me to realize how important a job we have serving others, and that in order to do that well we must take care of ourselves.",
-          "source": "Staples",
+          "source": "Staples Reviewer",
           "citation": "family caregiver"
         }
       ]
     },
     {
       "name": "Media",
-      "content": []
+      "content": [
+        {
+          "type": "html",
+          "lines": [
+            "<div class='row justify-content-center'><div class='col-auto'>",
+            "  <a href='https://www.moodyradio.org/programs/chris-fabry-live/2024/06/18-encouragement-for-caregivers' alt='Chris Fabry Live' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
+            "    <img src=\"{{'/img/book-extras/Chris_Fabry_logo.jpg' }}\" style='width:300px'>",
+            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview &amp; Article</h3></div>",
+            "  </a>",
+            "</div></div>"
+          ]
+        },
+        {
+          "type": "html",
+          "lines": [
+            "<div class='row justify-content-center'><div class='col-auto'>",
+            "  <a href='https://www.moodyradio.org/programs/morning-shows/seth-and-deb/2024/10/11-sethanddeb' alt='Mornings with Seth & Deb' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
+            "    <img src=\"{{'/img/book-extras/Seth_and_Deb_logo.jpg' }}\" style='width:300px'>",
+            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3> Radio Quad Cities (Illinois), hour 2</div>",
+            "  </a>",
+            "</div></div>"
+          ]
+        },
+        {
+          "type": "html",
+          "lines": [
+            "<div class='row justify-content-center'><div class='col-auto'>",
+            "  <a href='https://kneo.org/local-programs/author-s-corner?gcfm-fid=180&gcfm-eid=29184511011#gcfm-player-container' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
+            "    <img src=\"{{'/img/book-extras/authors_corner_logo.jpg' }}\" style='width:240px'>",
+            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3> KNEO, with Roberta Foster</div>",
+            "  </a>",
+            "</div></div>"
+          ]
+        },
+        {
+          "type": "html",
+          "lines": [
+            "<div class='row justify-content-center'><div class='col-auto'>",
+            "  <a href='https://soundcloud.com/user-160165404/caregiving-taking-care-of-yourself-while-caring-for-someone-else' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
+            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3>WBFJ, Winston-Salem, NC</div>",
+            "  </a>",
+            "</div></div>"
+          ]
+        },
+        {
+          "type": "html",
+          "lines": [
+            "<div class='row justify-content-center'><div class='col-auto'>",
+            "  <a href='https://forsythwoman.com/caregiving-taking-care-of-yourself-while-caring-for-someone-else/' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
+            "    <div class='align-self-center text-center'><h3 class='mb-0'>Article</h3>Forsyth Woman Magazine</div>",
+            "  </a>",
+            "</div></div>"
+          ]
+        }
+      ]
     }
   ],
   "linkCategories": [
