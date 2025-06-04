@@ -57,64 +57,6 @@
           "citation": "family caregiver"
         }
       ]
-    },
-    {
-      "name": "Media",
-      "content": [
-        {
-          "type": "html",
-          "lines": [
-            "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <a href='https://www.moodyradio.org/programs/chris-fabry-live/2024/06/18-encouragement-for-caregivers' alt='Chris Fabry Live' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
-            "    <img src=\"{{'/img/book-extras/Chris_Fabry_logo.jpg' }}\" style='width:300px'>",
-            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview &amp; Article</h3></div>",
-            "  </a>",
-            "</div></div>"
-          ]
-        },
-        {
-          "type": "html",
-          "lines": [
-            "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <a href='https://www.moodyradio.org/programs/morning-shows/seth-and-deb/2024/10/11-sethanddeb' alt='Mornings with Seth & Deb' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
-            "    <img src=\"{{'/img/book-extras/Seth_and_Deb_logo.jpg' }}\" style='width:300px'>",
-            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3> Radio Quad Cities (Illinois), hour 2</div>",
-            "  </a>",
-            "</div></div>"
-          ]
-        },
-        {
-          "type": "html",
-          "lines": [
-            "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <a href='https://kneo.org/local-programs/author-s-corner?gcfm-fid=180&gcfm-eid=29184511011#gcfm-player-container' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
-            "    <img src=\"{{'/img/book-extras/authors_corner_logo.jpg' }}\" style='width:240px'>",
-            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3> KNEO, with Roberta Foster</div>",
-            "  </a>",
-            "</div></div>"
-          ]
-        },
-        {
-          "type": "html",
-          "lines": [
-            "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <a href='https://soundcloud.com/user-160165404/caregiving-taking-care-of-yourself-while-caring-for-someone-else' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
-            "    <div class='align-self-center text-center'><h3 class='mb-0'>Radio Interview</h3>WBFJ, Winston-Salem, NC</div>",
-            "  </a>",
-            "</div></div>"
-          ]
-        },
-        {
-          "type": "html",
-          "lines": [
-            "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <a href='https://forsythwoman.com/caregiving-taking-care-of-yourself-while-caring-for-someone-else/' alt='Authors Corner' target='_blank' class='d-flex gap-3 p-3 book-callout'>",
-            "    <div class='align-self-center text-center'><h3 class='mb-0'>Article</h3>Forsyth Woman Magazine</div>",
-            "  </a>",
-            "</div></div>"
-          ]
-        }
-      ]
     }
   ],
   "linkCategories": [

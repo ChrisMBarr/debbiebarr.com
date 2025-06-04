@@ -6,6 +6,7 @@
   "navigation": [
     { "name": "Home", "url": "/" },
     { "name": "Books", "url": "/books/" },
+    { "name": "Media", "url": "/media/" },
     { "name": "About", "url": "/about/" },
     { "name": "Contact", "url": "/contact/" },
     { "name": "GoodReads", "url": "https://goodreads.com/author/show/237407.Debbie_Barr", "icon": "goodreads-logo" }

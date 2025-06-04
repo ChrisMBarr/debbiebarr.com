@@ -21,7 +21,7 @@
     "update": "npx npm-check-updates -u && npm i"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy": "^3.1.1",
     "@eslint/js": "^9.28.0",
     "bootstrap": "^5.3.6",
     "esbuild": "^0.25.5",

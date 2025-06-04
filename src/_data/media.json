@@ -1,0 +1,71 @@
+{
+  "listenSingle": [
+    {
+      "title": "Jennifer Podcast",
+      "imageUrl": "/img/media/",
+      "url": ""
+    },
+    {
+      "title": "The Call",
+      "imageUrl": "/img/media/",
+      "url": ""
+    },
+    {
+      "title": "Forsyth Mags Podcast",
+      "imageUrl": "/img/media/",
+      "url": ""
+    },
+    {
+      "title": "Just Ask Joyce",
+      "imageUrl": "/img/media/",
+      "url": ""
+    },
+    {
+      "title": "Sunday Night Live",
+      "imageUrl": "/img/media/",
+      "url": ""
+    },
+    {
+      "title": "Mornings with Seth & Deb",
+      "imageUrl": "/img/media/Seth_and_Deb_logo.jpg",
+      "url": "https://www.moodyradio.org/programs/morning-shows/seth-and-deb/2024/10/11-sethanddeb"
+    }
+  ],
+  "listenMulti": [
+    {
+      "title": "Building Relationships",
+      "imageUrl": "/img/media/",
+      "links": [{ "title": "", "url": "" }]
+    },
+    {
+      "title": "Chris Fabry Live",
+      "imageUrl": "/img/media/",
+      "links": [{ "text": "1", "url": "https://www.moodyradio.org/programs/chris-fabry-live/2024/06/18-encouragement-for-caregivers" }]
+    },
+    {
+      "title": "WBFJ Sunday @ 5",
+      "imageUrl": "/img/media/wbfj_logo.jpg",
+      "links": [
+        {
+          "title": "1",
+          "url": "https://soundcloud.com/user-160165404/caregiving-taking-care-of-yourself-while-caring-for-someone-else"
+        }
+      ]
+    },
+    {
+      "title": "Authors Corner",
+      "imageUrl": "/img/media/authors_corner_logo.jpg",
+      "links": [{ "title": "1", "url": "https://kneo.org/local-programs/author-s-corner?gcfm-fid=180&gcfm-eid=29184511011#gcfm-player-container" }]
+    }
+  ],
+  "devotionalLinks": [
+    { "title": "Devotional 1", "url": "" },
+    { "title": "Devotional 2", "url": "" }
+  ],
+  "articleLinks": [
+    {
+      "title": "Forsyth Woman Magazine - Caregiving: Taking Care of Yourself While Caring for Someone Else",
+      "url": "https://forsythwoman.com/caregiving-taking-care-of-yourself-while-caring-for-someone-else/"
+    }
+  ]
+}
