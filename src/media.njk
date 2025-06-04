@@ -12,6 +12,7 @@ title: Media
                 <a href='{{singleLink.url}}' target='_blank' class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
                     <img src="{{ singleLink.imageUrl | url }}" style='width:100px'>
                     <p class='mb-0'>{{singleLink.title}}</p>
+                    <p class='mb-0'>{{singleLink.episodeTitle}}</p>
                 </a>
             </div>
         {% endfor %}
@@ -39,7 +40,10 @@ title: Media
         {% for devotionalLink in media.devotionalLinks %}
             <div class='col-auto'>
                 <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
-                    <a href='{{devotionalLink.url}}' target='_blank'>{{devotionalLink.title}}</a>
+                    <a href='{{devotionalLink.url}}' target='_blank'>{{devotionalLink.title}}
+                        <br>
+                        {{devotionalLink.subtitle}}
+                    </a>
                 </div>
             </div>
         {% endfor %}
