@@ -2,7 +2,40 @@
   "version": "0.2",
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
   "language": "en",
-  "words": ["stylelint", "goodreads", "callout"],
+  "words": [
+    "goodreads",
+    "unforgiveness",
+    "Fabry",
+
+    //App Stuff
+    "adelle",
+    "stylelint",
+    "callout",
+
+    //Eleventy Stuff
+    "eleventy",
+    "elif",
+    "endfor",
+
+    //HTML stuff
+    "novalidate",
+    "stylesheet",
+    "figcaption",
+    "minlength",
+    "srcset",
+    "hellip",
+    "xlink",
+    "ldquo",
+    "rdquo",
+
+    //SVG Stuff
+    "evenodd",
+    "csvg",
+    "cpath",
+    "ccircle",
+    "hstack",
+    "vstack"
+  ],
   "flagWords": [],
   "ignorePaths": ["node_modules/**", "package-lock.json", "package.json"]
 }
