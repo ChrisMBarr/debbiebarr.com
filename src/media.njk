@@ -4,56 +4,56 @@ title: Media
 ---
 
 <div class="container">
-    <h1>Listen</h1>
+  <h1>Listen</h1>
 
-    <div class='row justify-content-center'>
-        {% for singleLink in media.listenSingle %}
-            <div class='col-auto'>
-                <a href='{{singleLink.url}}' target='_blank' class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
-                    <img src="{{ singleLink.imageUrl | url }}" style='width:100px'>
-                    <p class='mb-0'>{{singleLink.title}}</p>
-                    <p class='mb-0'>{{singleLink.episodeTitle}}</p>
-                </a>
-            </div>
-        {% endfor %}
-    </div>
+  <div class='row justify-content-center'>
+    {% for singleLink in media.listenSingle %}
+      <div class='col-auto'>
+        <a href='{{singleLink.url}}' target='_blank' class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
+          <img src="{{ singleLink.imageUrl | url }}" style='width:100px'>
+          <p class='mb-0'>{{singleLink.title}}</p>
+          <p class='mb-0'>{{singleLink.episodeTitle}}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 
-    <hr/>
+  <hr/>
 
-    <div class='row justify-content-center'>
-        {% for multi in media.listenMulti %}
-            <div class='col-auto'>
-                <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
-                    <img src="{{ multi.imageUrl | url }}" style='width:100px'>
-                    <p class='mb-0'>{{multi.title}}</p>
-                    {% for link in multi.links %}
-                        <a href='{{link.url}}' target='_blank'>{{link.title}}</a>
-                    {% endfor %}
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+  <div class='row justify-content-center'>
+    {% for multi in media.listenMulti %}
+      <div class='col-auto'>
+        <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
+          <img src="{{ multi.imageUrl | url }}" style='width:100px'>
+          <p class='mb-0'>{{multi.title}}</p>
+          {% for link in multi.links %}
+            <a href='{{link.url}}' target='_blank'>{{link.title}}</a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 
-    <h1>Read</h1>
+  <h1>Read</h1>
 
-    <div class='row justify-content-center'>
-        {% for devotionalLink in media.devotionalLinks %}
-            <div class='col-auto'>
-                <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
-                    <a href='{{devotionalLink.url}}' target='_blank'>{{devotionalLink.title}}
-                        <br>
-                        {{devotionalLink.subtitle}}
-                    </a>
-                </div>
-            </div>
-        {% endfor %}
+  <div class='row justify-content-center'>
+    {% for devotionalLink in media.devotionalLinks %}
+      <div class='col-auto'>
+        <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
+          <a href='{{devotionalLink.url}}' target='_blank'>{{devotionalLink.title}}
+            <br>
+            {{devotionalLink.subtitle}}
+          </a>
+        </div>
+      </div>
+    {% endfor %}
 
-        {% for articleLink in media.articleLinks %}
-            <div class='col-auto'>
-                <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
-                    <a href='{{articleLink.url}}' target='_blank'>{{articleLink.title}}</a>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+    {% for articleLink in media.articleLinks %}
+      <div class='col-auto'>
+        <div class='d-flex flex-column align-items-center gap-2 p-2 book-callout'>
+          <a href='{{articleLink.url}}' target='_blank'>{{articleLink.title}}</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>

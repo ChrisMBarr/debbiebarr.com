@@ -15,90 +15,90 @@ permalink: "books/{{ book.title | slugify }}/"
 {% set hasLongTitle = book.title.length > 25 %}
 {% set hasVeryLongTitle = book.title.length > 40 %}
 <div id="book-details-wrapper" class="flush-with-header" style="background-image:url('{{book.detailHeaderImageUrl | url}}');">
-    <div class="container position-relative">
-        <div id="book-details-titles">
-            <h2 class="mb-0{% if hasVeryLongTitle %} very-long-title{% elif hasLongTitle %} long-title{% endif %}">{{ book.title }}</h2>
-            <h3 class="mt-4 mb-0">{{ book.subtitle }}</h3>
-        </div>
+  <div class="container position-relative">
+    <div id="book-details-titles">
+      <h2 class="mb-0{% if hasVeryLongTitle %} very-long-title{% elif hasLongTitle %} long-title{% endif %}">{{ book.title }}</h2>
+      <h3 class="mt-4 mb-0">{{ book.subtitle }}</h3>
     </div>
-    <div class="container">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
         <div class="row">
-            <div class="col-12 col-lg-4">
-                <div class="row">
-                    <div class="col-5 col-lg-12 order-lg-last" id="book-details-links">
-                        {% if book.isCaregivers %}
-                            <div class="mt-4">
+          <div class="col-5 col-lg-12 order-lg-last" id="book-details-links">
+            {% if book.isCaregivers %}
+              <div class="mt-4">
                 See my other
                 <a href="{{ '/books/books-for-caregivers' | url }}">books for caregivers</a>
-                            </div>
-                        {% endif %}
-                        <ul class="list-unstyled mt-4 mb-0">
-                            {% for linkCategory in book.linkCategories %}
-                                <li>
-                                    <h5 class="text-uppercase m-0">{{ linkCategory.type }}</h5>
-                                    <ul class="list-unstyled ms-2 mb-2">
-                                        {% for link in linkCategory.links %}
-                                            <li>
-                                                <a href="{{ link.url | url }}" target="_blank">{{ link.name | safe }}</a>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="col-7 col-lg-12 order-lg-first">
-                        <img
+              </div>
+            {% endif %}
+            <ul class="list-unstyled mt-4 mb-0">
+              {% for linkCategory in book.linkCategories %}
+                <li>
+                  <h5 class="text-uppercase m-0">{{ linkCategory.type }}</h5>
+                  <ul class="list-unstyled ms-2 mb-2">
+                    {% for link in linkCategory.links %}
+                      <li>
+                        <a href="{{ link.url | url }}" target="_blank">{{ link.name | safe }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-7 col-lg-12 order-lg-first">
+            <img
               src="{{ book.coverImageUrl | url }}"
               class="w-100 shadow mt-4 mt-lg-0"
               alt="{{ book.title }}"/>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-8" id="book-details-content">
-                <nav class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-stretch align-items-md-end text-uppercase">
-                    {% if book.contentSections.length > 1 %}
-                        {% for section in book.contentSections %}
-                            <a href="#book-{{section.name | slugify}}" class=" {% if loop.first %}current{% endif %}">{{section.name}}</a>
-                        {% endfor %}
-                    {% endif %}
-                </nav>
-
-                {% for section in book.contentSections %}
-                    <div id="book-{{section.name | slugify}}" aria-label="{{section.name}}" class="{% if not loop.first %}d-none{% endif %}">
-                        {% for obj in section.content %}
-                            {% if not loop.first %}
-                                <hr>
-                            {% endif %}
-                            {% if obj.type == "quote" %}
-                                {# Quote content #}
-                                <figure>
-                                    <blockquote class="blockquote fs-6">
-                                        <p>{{obj.text | safe}}</p>
-                                    </blockquote>
-                                    <figcaption class="blockquote-footer">
-                                        {% if obj.citation %}
-                                            {{obj.source}}, <cite>{{obj.citation}}</cite>
-                                        {% else %}
-                                            {{obj.source}}
-                                        {% endif %}
-                                    </figcaption>
-                                </figure>
-                            {% else %}
-                                {# If not a quote, assume raw HTML content as lines to loop through #}
-                                {% for line in obj.lines %}
-                                    {% set baseUrl = '/' | url %}
-                                    {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
-                                {% endfor %}
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                {% endfor %}
-
-            </div>
+          </div>
         </div>
-        {% include "quote.njk" %}
+      </div>
+      <div class="col-12 col-lg-8" id="book-details-content">
+        <nav class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-stretch align-items-md-end text-uppercase">
+          {% if book.contentSections.length > 1 %}
+            {% for section in book.contentSections %}
+              <a href="#book-{{section.name | slugify}}" class=" {% if loop.first %}current{% endif %}">{{section.name}}</a>
+            {% endfor %}
+          {% endif %}
+        </nav>
+
+        {% for section in book.contentSections %}
+          <div id="book-{{section.name | slugify}}" aria-label="{{section.name}}" class="{% if not loop.first %}d-none{% endif %}">
+            {% for obj in section.content %}
+              {% if not loop.first %}
+                <hr>
+              {% endif %}
+              {% if obj.type == "quote" %}
+                {# Quote content #}
+                <figure>
+                  <blockquote class="blockquote fs-6">
+                    <p>{{obj.text | safe}}</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    {% if obj.citation %}
+                      {{obj.source}}, <cite>{{obj.citation}}</cite>
+                    {% else %}
+                      {{obj.source}}
+                    {% endif %}
+                  </figcaption>
+                </figure>
+              {% else %}
+                {# If not a quote, assume raw HTML content as lines to loop through #}
+                {% for line in obj.lines %}
+                  {% set baseUrl = '/' | url %}
+                  {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+
+      </div>
     </div>
+    {% include "quote.njk" %}
+  </div>
 </div>
 
 <script src="{{ '/js/book-details.js' | url }}"></script>
