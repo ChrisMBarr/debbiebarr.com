@@ -27,7 +27,7 @@
             "<p>Krystan's words are a sweet reminder that even out-of-date, out-of-print books can still impact lives. </p>",
             "<hr>",
             "<div class='row justify-content-center'><div class='col-auto'>",
-            "  <div class='align-self-center text-center p-3 book-callout'><h3 class='mb-0 lh-1'>1994 Gold Medallion Award Nominee</h3> </div>",
+            "  <div class='card app-custom-card'><div class='card-body'> <h3 class='mb-0 lh-1'>1994 Gold Medallion Award Nominee</h3> </div></div>",
             "</div></div>"
           ]
         }

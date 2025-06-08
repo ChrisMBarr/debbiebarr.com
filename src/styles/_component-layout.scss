@@ -71,18 +71,24 @@ blockquote {
   }
 }
 
-.book-callout {
+.card.app-custom-card {
   border: 1px solid $site-color-highlight;
-  border-radius: $border-radius;
   background-color: $site-color-lightest;
   box-shadow: $box-shadow;
+  text-decoration: none;
+  overflow: hidden;
 }
 
-a.book-callout {
+a.card.app-custom-card {
+  color: $site-color-link;
+
   @include transition(all $site-duration $site-ease-out-expo);
 
   &:hover {
-    transform: scale(1.01);
+    color: shift-color($site-color-link, $link-shade-percentage);
+    border-color: shift-color($site-color-highlight, $link-shade-percentage);
+
     box-shadow: $box-shadow-lg;
+    transform: scale(1.01);
   }
 }
