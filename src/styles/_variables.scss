@@ -35,7 +35,6 @@ $site-spacing-desktop-sm: calc($site-spacing-desktop / 2);
 $site-ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
 $site-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 $site-duration: 400ms;
-$site-duration-fast: calc($site-duration / 2);
 $site-text-shadow: rgba($site-color-darkest, 30%) 2px 2px 4px; // Similar to the box shadow we've set in the bootstrap overrides
 $site-book-hover-scale: 1.03;
 

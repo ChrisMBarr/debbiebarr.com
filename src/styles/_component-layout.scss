@@ -4,6 +4,9 @@ body,
 html {
   min-height: 100vh;
 }
+body {
+  overflow-y: scroll;
+}
 
 :focus-visible {
   outline: 3px solid $site-color-highlight !important;
@@ -76,7 +79,7 @@ blockquote {
 }
 
 a.book-callout {
-  @include transition(all $site-duration-fast $site-ease-out-expo);
+  @include transition(all $site-duration $site-ease-out-expo);
 
   &:hover {
     transform: scale(1.01);

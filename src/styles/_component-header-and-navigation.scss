@@ -40,7 +40,7 @@
   line-height: $site-shared-nav-line-height;
   text-decoration: none;
 
-  @include transition(all $site-duration-fast $site-ease-out-expo);
+  @include transition(all $site-duration $site-ease-out-expo);
 
   &:hover,
   &:focus {

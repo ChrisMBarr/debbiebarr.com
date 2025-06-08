@@ -83,7 +83,7 @@
   a {
     box-shadow: $box-shadow;
 
-    @include transition(all $site-duration-fast $site-ease-out-expo);
+    @include transition(all $site-duration $site-ease-out-expo);
 
     @media (prefers-reduced-motion: no-preference) {
       // Hover transition only for those with no motion preference

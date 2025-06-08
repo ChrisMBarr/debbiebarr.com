@@ -6,7 +6,7 @@
     z-index: 1;
     box-shadow: $box-shadow;
 
-    @include transition(all $site-duration-fast $site-ease-out-expo);
+    @include transition(all $site-duration $site-ease-out-expo);
   }
 
   a {
