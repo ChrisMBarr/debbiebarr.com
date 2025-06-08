@@ -60,6 +60,11 @@
       "content": [
         {
           "type": "quote",
+          "text": "I bought this book for me, then bought copies for my entire family.",
+          "source": "Amazon Review"
+        },
+        {
+          "type": "quote",
           "text": "Of all the caregiving books I have read, this is my favorite.",
           "source": "Ruth Z.W. Johnson",
           "citation": "Burlington Times-News"

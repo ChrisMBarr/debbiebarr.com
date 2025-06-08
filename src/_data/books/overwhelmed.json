@@ -23,6 +23,17 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Reviews",
+      "content": [
+        {
+          "type": "quote",
+          "text": "This little book is packed full of 21st-century pitfalls with tips and guidelines for living a fuller life free of... well, everything we face daily. It's helping me regain control of my stuff, my thoughts, and my actions, allowing time for what's really important to me. I easily read it in one day, underlining the many points that spoke to me.",
+          "source": "Rebecca",
+          "citation": "Amazon Reviewer"
+        }
+      ]
     }
   ],
   "linkCategories": [
