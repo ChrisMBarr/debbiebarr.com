@@ -3,44 +3,45 @@
     {
       "title": "Jennifer Rothschild 4:13 Podcast",
       "episodeTitle": "Can I Forgive and Make it Stick?",
-      "imageUrl": "/img/media/",
+      "imageUrl": "/img/media/jennifer-rothschild-413.jpg",
       "url": "https://www.jenniferrothschild.com/forgive-make-stick-debbie-barr/"
     },
     {
       "title": "The Call With Nancy Sabato",
       "episodeTitle": "Can You Forgive and Forget?",
-      "imageUrl": "/img/media/",
+      "imageUrl": "/img/media/the-call.jpg",
       "url": "https://creators.spotify.com/pod/show/nancy-sabato/episodes/Can-You-Forgive-and-Forget-e2puq3n/a-abjdbqm"
     },
     {
       "title": "Forsyth Magazines Podcast",
       "episodeTitle": "Interview with Debbie Barr, Episode #197",
-      "imageUrl": "/img/media/",
+      "imageUrl": "/img/media/forsyth-mags.jpg",
       "url": "https://forsythmagspodcast.com/forsyth-mags-podcast-episode-197-debbie-barr/"
     },
     {
       "title": "Just Ask Joyce",
       "episodeTitle": "Forgiveness: The Choice That Sets You Free",
-      "imageUrl": "/img/media/",
+      "imageUrl": "/img/media/just-ask-joyce.jpg",
       "url": "https://soundcloud.com/justaskjoyce/jaj-2024-07-25-podcast-debbie-barr-forgiveness-the-choice-that-sets-you-free"
     },
     {
       "title": "Sunday Night Live",
       "episodeTitle": "Keeping Love Alive as Memories Fade",
-      "imageUrl": "/img/media/",
+      "imageUrl": "/img/media/ksbj.png",
       "url": "https://soundcloud.com/ksbj-sunday-night-show/01-08-2017-debbie-barr-keeping-love-alive-as-memories-fade"
     },
     {
       "title": "Mornings with Seth & Deb",
       "episodeTitle": "Hour 2: Caregiving: A Conversation with Debbie Barr",
-      "imageUrl": "/img/media/Seth_and_Deb_logo.jpg",
+      "imageUrl": "/img/media/seth-and-deb.jpg",
       "url": "https://www.moodyradio.org/programs/morning-shows/seth-and-deb/2024/10/11-sethanddeb"
     }
   ],
   "listenMulti": [
     {
       "title": "Building Relationships with Dr. Gary Chapman",
-      "imageUrl": "/img/media/",
+      "source": "Moody Radio",
+      "imageUrl": "/img/media/building-relationships.jpg",
       "links": [
         { "title": "Forgiveness: The Choice that Sets You Free", "url": "https://www.moodyradio.org/programs/building-relationships/2024/11/2024-11-02-forgiveness--debbie-barr/" },
         { "title": "Strength for the Cancer Journey", "url": "https://moodyaudio.com/products/strength-cancer-journey-deborah-barr" },
@@ -49,17 +50,19 @@
     },
     {
       "title": "Chris Fabry Live",
-      "imageUrl": "/img/media/",
+      "source": "Moody Radio",
+      "imageUrl": "/img/media/chris-fabry.jpg",
       "links": [
-        { "text": "Encouragement for Caregivers", "url": "https://www.moodyradio.org/programs/chris-fabry-live/2024/06/18-encouragement-for-caregivers" },
+        { "title": "Encouragement for Caregivers", "url": "https://www.moodyradio.org/programs/chris-fabry-live/2024/06/18-encouragement-for-caregivers" },
         { "title": "Strength for the Cancer Journey", "url": "https://moodyaudio.com/products/strength-cancer-journey" },
         { "title": "Grace for the Unexpected Journey", "url": "https://moodyaudio.com/products/grace-unexpected-journey" },
         { "title": "Keeping Love Alive as Memories Fade", "url": "https://moodyaudio.com/products/keeping-love-alive-0" }
       ]
     },
     {
-      "title": "WBFJ Sunday @ 5",
-      "imageUrl": "/img/media/wbfj_logo.jpg",
+      "title": "Sunday @ 5",
+      "source": "WBFJ in North Carolina",
+      "imageUrl": "/img/media/sunday-@-5.jpg",
       "links": [
         {
           "title": "Strength for the Cancer Journey",
@@ -85,6 +88,7 @@
     },
     {
       "title": "Authors Corner",
+      "source": "KNEO in Missouri",
       "imageUrl": "/img/media/authors_corner_logo.jpg",
       "links": [
         {
@@ -100,34 +104,43 @@
     }
   ],
   "devotionalLinks": [
-    { "title": "Do You Feel Overwhelmed?", "subtitle": "Life Bible app 5-day devotional", "url": "https://tbibles.com/e7bG" },
+    { "title": "Do You Feel Overwhelmed?", "source": "Life Bible app 5-day devotional", "url": "https://tbibles.com/e7bG" },
     {
       "title": "Keeping Love Alive as Memories Fade",
-      "subtitle": "Life Bible app 7-day devotional",
+      "source": "Life Bible app 7-day devotional",
       "url": "https://tbibles.com/byWz"
     },
     {
       "title": "Keeping Love Alive as Memories Fade",
-      "subtitle": "YouVersion Bible app 7-day devotional",
+      "source": "YouVersion Bible app 7-day devotional",
       "url": "https://www.bible.com/reading-plans/3287-keeping-love-alive-as-memories-fade"
     }
   ],
   "articleLinks": [
     {
-      "title": "Publisher's Weekly: Grace for the Unexpected Journey",
+      "title": "Grace for the Unexpected Journey",
+      "source": "Publisher's Weekly",
       "url": "https://www.publishersweekly.com/9780802416780"
     },
     {
-      "title": "Lifeway Research book review",
+      "title": "Grace for The Unexpected Journey: Book Review",
+      "source": "Lifeway Research",
       "url": "https://research.lifeway.com/2018/05/24/grace-for-the-unexpected-journey-by-deborah-barr-book-review/"
     },
     {
-      "title": "Forsyth Woman magazine interview: Strength for the Cancer Journey",
+      "title": "Interview: Strength for the Cancer Journey",
+      "source": "Forsyth Woman Magazine",
       "url": "https://forsythwoman.com/strength-for-the-cancer-journey-30-days-of-inspiration-encouragement-and-comfort/"
     },
     {
-      "title": "Forsyth Family magazine: Grace for the Unexpected Journey",
+      "title": "Grace for the Unexpected Journey",
+      "source": "Forsyth Family Magazine",
       "url": "https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/"
+    },
+    {
+      "title": "'Keeping Love Alive' helps families deal with Alzheimer's",
+      "source": "Winston-Salem Journal (PDF File)",
+      "url": "/img/media/journalnow-Keeping Love Alive helps families deal with Alzheimers.pdf"
     }
   ]
 }
