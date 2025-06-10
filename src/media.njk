@@ -55,33 +55,20 @@ title: Media
   <h1>Read</h1>
 
   <div class='row'>
-    <div class='col col-md-5 col-xl-6'>
-      <div class='card app-custom-card'>
-        <h4 class="card-header">Devotionals</h4>
-        <div class="list-group list-group-flush">
-          {% for devotionalLink in media.devotionalLinks %}
-            <a href='{{devotionalLink.url}}' target='_blank' class="list-group-item list-group-item-action">
-              <strong>{{devotionalLink.title}}</strong>
-              <br>
-              <small>{{devotionalLink.source}}</small>
-            </a>
-          {% endfor %}
+    {% for readSection in media.read %}
+      <div class='col {{readSection.columnClasses}}'>
+        <div class='card app-custom-card'>
+          <h4 class="card-header">{{readSection.title}}</h4>
+          <div class="list-group list-group-flush">
+            {% for link in readSection.links %}
+              <a href='{{link.url}}' target='_blank' class="list-group-item list-group-item-action">
+                <strong>{{link.title}}</strong>
+                <br>
+                <small>{{link.source}}</small>
+              </a>
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class='col col-md-7 col-xl-6'>
-      <div class='card app-custom-card'>
-        <h4 class="card-header">Articles</h4>
-        <div class="list-group list-group-flush">
-          {% for articleLink in media.articleLinks %}
-            <a href='{{articleLink.url}}' target='_blank' class="list-group-item list-group-item-action">
-              <strong>{{articleLink.title}}</strong>
-              <br>
-              <small>{{articleLink.source}}</small>
-            </a>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>

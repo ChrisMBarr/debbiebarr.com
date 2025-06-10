@@ -103,44 +103,54 @@
       ]
     }
   ],
-  "devotionalLinks": [
-    { "title": "Do You Feel Overwhelmed?", "source": "Life Bible app 5-day devotional", "url": "https://tbibles.com/e7bG" },
+  "read": [
     {
-      "title": "Keeping Love Alive as Memories Fade",
-      "source": "Life Bible app 7-day devotional",
-      "url": "https://tbibles.com/byWz"
+      "title": "Online Devotionals",
+      "columnClasses": "col-md-5 col-xl-6",
+      "links": [
+        { "title": "Do You Feel Overwhelmed?", "source": "Life Bible app 5-day devotional", "url": "https://tbibles.com/e7bG" },
+        {
+          "title": "Keeping Love Alive as Memories Fade",
+          "source": "Life Bible app 7-day devotional",
+          "url": "https://tbibles.com/byWz"
+        },
+        {
+          "title": "Keeping Love Alive as Memories Fade",
+          "source": "YouVersion Bible app 7-day devotional",
+          "url": "https://www.bible.com/reading-plans/3287-keeping-love-alive-as-memories-fade"
+        }
+      ]
     },
     {
-      "title": "Keeping Love Alive as Memories Fade",
-      "source": "YouVersion Bible app 7-day devotional",
-      "url": "https://www.bible.com/reading-plans/3287-keeping-love-alive-as-memories-fade"
-    }
-  ],
-  "articleLinks": [
-    {
-      "title": "Grace for the Unexpected Journey",
-      "source": "Publisher's Weekly",
-      "url": "https://www.publishersweekly.com/9780802416780"
-    },
-    {
-      "title": "Grace for The Unexpected Journey: Book Review",
-      "source": "Lifeway Research",
-      "url": "https://research.lifeway.com/2018/05/24/grace-for-the-unexpected-journey-by-deborah-barr-book-review/"
-    },
-    {
-      "title": "Interview: Strength for the Cancer Journey",
-      "source": "Forsyth Woman Magazine",
-      "url": "https://forsythwoman.com/strength-for-the-cancer-journey-30-days-of-inspiration-encouragement-and-comfort/"
-    },
-    {
-      "title": "Grace for the Unexpected Journey",
-      "source": "Forsyth Family Magazine",
-      "url": "https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/"
-    },
-    {
-      "title": "'Keeping Love Alive' helps families deal with Alzheimer's",
-      "source": "Winston-Salem Journal (PDF File)",
-      "url": "/img/media/journalnow-Keeping Love Alive helps families deal with Alzheimers.pdf"
+      "title": "Articles",
+      "columnClasses": "col-md-7 col-xl-6",
+      "links": [
+        {
+          "title": "Grace for the Unexpected Journey",
+          "source": "Publisher's Weekly",
+          "url": "https://www.publishersweekly.com/9780802416780"
+        },
+        {
+          "title": "Grace for The Unexpected Journey: Book Review",
+          "source": "Lifeway Research",
+          "url": "https://research.lifeway.com/2018/05/24/grace-for-the-unexpected-journey-by-deborah-barr-book-review/"
+        },
+        {
+          "title": "Interview: Strength for the Cancer Journey",
+          "source": "Forsyth Woman Magazine",
+          "url": "https://forsythwoman.com/strength-for-the-cancer-journey-30-days-of-inspiration-encouragement-and-comfort/"
+        },
+        {
+          "title": "Grace for the Unexpected Journey",
+          "source": "Forsyth Family Magazine",
+          "url": "https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/"
+        },
+        {
+          "title": "'Keeping Love Alive' helps families deal with Alzheimer's",
+          "source": "Winston-Salem Journal (PDF File)",
+          "url": "/img/media/journalnow-Keeping Love Alive helps families deal with Alzheimers.pdf"
+        }
+      ]
     }
   ]
 }
