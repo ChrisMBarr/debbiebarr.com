@@ -33,7 +33,7 @@
     "nunjucks": "^3.2.4",
     "nunjucks-date-filter": "^0.1.1",
     "prettier": "3.5.3",
-    "sass": "^1.89.1",
+    "sass": "^1.89.2",
     "stylelint": "^16.20.0",
     "stylelint-config-standard": "^38.0.0",
     "stylelint-config-standard-scss": "^15.0.1",
