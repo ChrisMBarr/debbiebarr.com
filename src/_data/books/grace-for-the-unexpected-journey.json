@@ -27,13 +27,7 @@
             "      <div class='align-self-center text-center'><h3 class='mb-0'>Best Inspirational Book</h3> 2018 Digital Book World awards</div>",
             "    </div>",
             "  </a>",
-            "</div></div>",
-            "<hr>",
-            "<h4>Radio Interviews</h4>",
-            "<ul>",
-            "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey' target='_blank'>Chris Fabry Live</a></li>",
-            "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey-0' target='_blank'>Building Relationships with Dr. Gary Chapman</a></li>",
-            "</ul>"
+            "</div></div>"
           ]
         }
       ]
@@ -87,17 +81,6 @@
           "type": "quote",
           "text": "I am a caregiver for my husband who has frontal temporal dementia and supranuclear palsy&hellip; Your devotional is one that I have been craving for so long. It truly fills my soul and speaks directly to what I am facing every day and for the past 8 years!! Thank you.",
           "source": "Caregiver comment via website"
-        },
-        {
-          "type": "html",
-          "lines": [
-            "<h4>Articles</h4>",
-            "<ul>",
-            "  <li><a href='https://www.publishersweekly.com/9780802416780' target='_blank'>Publishers Weekly</a></li>",
-            "  <li><a href='https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/' target='_blank'>Forsyth Family Magazine</a></li>",
-            "  <li><a href='/img/book-extras/Grace-LifeWay Pastors.pdf' target='_blank'>Lifeway Pastors <small>PDF</small></a></li>",
-            "</ul>"
-          ]
         }
       ]
     }
