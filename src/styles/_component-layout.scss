@@ -4,6 +4,7 @@ body,
 html {
   min-height: 100vh;
 }
+
 body {
   overflow-y: scroll;
 }
@@ -86,7 +87,6 @@ a.card.app-custom-card {
   &:hover {
     color: shift-color($site-color-link, $link-shade-percentage);
     border-color: shift-color($site-color-highlight, $link-shade-percentage);
-
     box-shadow: $box-shadow-lg;
     transform: scale(1.01);
   }
