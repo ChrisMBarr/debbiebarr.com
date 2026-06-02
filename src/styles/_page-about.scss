@@ -6,5 +6,6 @@
   @include media-breakpoint-up(xl) {
     max-height: 258px;
     width: auto;
+    max-width: 100%;
   }
 }
